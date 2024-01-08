@@ -19,9 +19,9 @@ import { Tarefa } from '../interface/tarefa';
       filter: 'brightness(92%)'
     })),
     transition('default  => highlighted', [
-      style({
+      animate('200ms ease-out',  style({
         transform: 'scale(1.02)'
-      }),
+      })),
       animate(200)
     ])
   ])]
