@@ -32,7 +32,7 @@
       "id": 6,
       "descricao": "ler",
       "categoria": "Estudos",
-      "statusFinalizado": false,
+      "statusFinalizado": true,
       "prioridade": "Normal"
     }
   ]
